@@ -1,0 +1,63 @@
+
+
+#carousel{
+
+	max-width: 600px;
+	max-height: 400px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+
+ul{
+
+	padding: 0;
+	margin: 0;
+	width: 3000px;
+	list-style-type: none;
+	font-size: 0px; /* zapobiega white spacom na dzieciach ul */
+}
+
+
+li{
+
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+/* ARROWS */
+
+.fa{
+
+	position: absolute;
+	color: #fff;
+	top: 46.5%;
+	font-size: 40px;
+	cursor: pointer;
+	opacity: .4;
+
+	-webkit-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s
+}
+
+.fa:hover{
+
+	opacity: .8;
+}
+
+.fa-arrow-left{
+
+	left: 20px;
+}
+
+.fa-arrow-right{
+
+	right: 20px;
+}
+
+
+/* CONTROLS */
+
+
